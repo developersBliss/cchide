@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enabled Sections</string>
+			<key>footerText</key>
+			<string>Choose which sections are displayed in Control Center. When all sections are disabled, Control Center will be inaccessible, which is useful if you'd like to completely remove it.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>com.apple.controlcenter.settings</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>com.apple.controlcenter.brightness</string>
+			<key>label</key>
+			<string>Brightness</string>
+		</dict>
+		<dict>
+			<key>set</key>
+			<string>setMediaControls:specifier:</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>com.apple.controlcenter.media-controls</string>
+			<key>label</key>
+			<string>Media Controls</string>
+		</dict>
+		<dict>
+			<key>set</key>
+			<string>setAirStuff:specifier:</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>com.apple.controlcenter.air-stuff</string>
+			<key>label</key>
+			<string>AirDrop/AirPlay</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>com.apple.controlcenter.quick-launch</string>
+			<key>label</key>
+			<string>Quick Launch</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Conditional Settings</string>
+			<key>footerText</key>
+			<string>Hide the Media Controls Section when no music is playing.</string>
+		</dict>
+		<dict>
+			<key>set</key>
+			<string>setConditionalMediaControls:specifier:</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>conditionalMediaControlsSection</string>
+			<key>label</key>
+			<string>Media Controls</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Hide AirDrop/AirPlay controls when Bluetooth and AirPlay are disabled.</string>
+		</dict>
+		<dict>
+			<key>set</key>
+			<string>setConditionalAirStuff:specifier:</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>conditionalAirplaySection</string>
+			<key>label</key>
+			<string>AirDrop/AirPlay</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>separators</string>
+			<key>label</key>
+			<string>Separators</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.developersbliss.cchide2</string>
+			<key>key</key>
+			<string>landscape</string>
+			<key>label</key>
+			<string>Landscape</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2014 developersBliss</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followOnTwitter</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+			<key>label</key>
+			<string>Follow @developersBliss</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CCHide</string>
+</dict>
+</plist>

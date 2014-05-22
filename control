@@ -1,0 +1,9 @@
+Package: com.developersbliss.cchide
+Name: CCHide
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Hide sections of Control Center.
+Maintainer: developersBliss
+Author: developersBliss
+Section: Tweaks

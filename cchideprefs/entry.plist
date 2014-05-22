@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = CCHidePrefs;
+		cell = PSLinkCell;
+		detail = "CCHidePrefsListController";
+		icon = "CCHidePrefs.png";
+		isController = 1;
+		label = CCHide;
+	};
+}

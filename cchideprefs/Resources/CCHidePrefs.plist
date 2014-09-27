@@ -164,6 +164,12 @@
 			<key>label</key>
 			<string>Follow @developersBliss</string>
 		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Thanks to Kyle Revony for the icon!</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>CCHide</string>

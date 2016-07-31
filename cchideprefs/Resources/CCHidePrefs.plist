@@ -152,7 +152,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>© 2014 developersBliss</string>
+			<string>© 2016 developersBliss</string>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -168,7 +168,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Thanks to Kyle Revony for the icon!</string>
+			<string>Thanks to Kyle Revony for the icon.</string>
 		</dict>
 	</array>
 	<key>title</key>

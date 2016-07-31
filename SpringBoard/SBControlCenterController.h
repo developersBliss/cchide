@@ -58,6 +58,7 @@ __attribute__((visibility("hidden")))
 -(void)hideGrabberAnimated:(BOOL)animated;
 -(void)showGrabberAnimated:(BOOL)animated;
 -(void)cancelTransition;
+-(void)_cancelTransition;
 -(void)endTransitionWithVelocity:(CGPoint)velocity completion:(id)completion;
 -(id)_createDynamicAnimationForShow:(BOOL)show currentValue:(double)value velocity:(double)velocity;
 -(void)updateTransitionWithTouchLocation:(CGPoint)touchLocation velocity:(CGPoint)velocity;
@@ -94,4 +95,3 @@ __attribute__((visibility("hidden")))
 -(void)dealloc;
 -(id)init;
 @end
-

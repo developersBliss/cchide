@@ -1,4 +1,4 @@
-include theos/makefiles/common.mk
+include ../theos/makefiles/common.mk
 
 BUNDLE_NAME = CCHidePrefs
 CCHidePrefs_FILES = CCHidePrefs.mm
